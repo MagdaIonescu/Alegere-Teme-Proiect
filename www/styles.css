@@ -1,0 +1,241 @@
+body {
+    background-image:url(img.src/fundal.jpg);
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+  }
+  
+  .logo {
+    width: 350px;
+    height: 70px;
+  }
+  
+  .menu-item {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration:dotted;
+    padding: 5px;
+  }
+  
+  .menu-item:hover {
+    background-color: #F0C59C;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    padding: 50px 20px;
+    background-color: white;
+    border-radius: 10px;
+  }
+  
+  h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .button {
+    display: inline-block;
+    background-color: #F0C59C;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 20px;
+  }
+  
+  .button:hover {
+    background-color: white;
+    color: #F0C59C;
+    border: 2px solid #F0C59C;
+  }
+
+  .login{
+    width:360px;
+    height: 540px;
+    background:white;
+    color:black;
+    top:50%;
+    left:50%;
+    position: absolute;
+    transform:translate(-50%,-40%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.avatar{
+  width:100px;
+  height:100px;
+  border-radius:50%;
+  position: absolute;
+  top:-50px;
+  left: 36%;
+}
+
+.login h1{
+  margin:0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.login p{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+.login input{
+  width: 100%;
+  margin-bottom:20px;
+  height:30px;
+}
+
+.login input[type="text"], input[type="password"]{
+  border:none;
+  border-bottom: 1px solid black;
+  background: transparent;
+  outline: none;
+  color:black;
+}
+
+.login input[type="submit"]{
+  border:none;
+  outline: none;
+  background:#F0C59C;
+  color:black;
+  font-size:18px;
+  border-radius: 20px;
+}   
+
+.login input[type="submit"]:hover{
+  cursor:pointer;
+  background:#F0C59C;
+  color:black;
+}
+
+.login a{
+  text-decoration: none;
+  font-size:12px;
+  line-height: 20px;
+  color:black;
+}
+
+.login a:hover{
+  color:#F0C59C;
+}
+
+.ap{
+  width:400px;
+  height: 480px;
+  background:white;
+  border-radius: 25px;
+  color: black;
+  top:50%;
+  left:50%;
+  position: absolute;
+  transform:translate(-50%,-40%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+}
+
+.ap h1{
+  margin-top: -20px;
+  margin-bottom: 50px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.ap input{
+  align-self: center;
+  margin:10px 45px;
+  border-radius: 20px;
+  text-align: center;
+  height: 35px;
+  width:250px;
+  border:none;
+  background: white;
+  color: black;
+}
+
+.ap input[type="submit"]{
+  margin-top: 20px;
+  background-color:  #F0C59C;
+}
+
+.ap h2{
+  text-align: center;
+  color: black;
+}
+
+.ap h3{
+  color:  black ;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.ap select{
+  border-radius: 10px;
+  border:none;
+  width:250px;
+  height:35px;
+  margin-left: 50px;
+}
+
+.ap input[type="submit"]:hover{
+  cursor:pointer;
+  background: #F0C59C;
+  color:white;
+}
+
+.page{
+  margin:auto;
+  padding: 50px;
+  align-items: center;
+  font-size: larger;
+  font-weight: bold;
+  color:black;
+  height: 485px;
+}
+
+table{
+  background-color: white;
+  border-collapse: collapse;
+  border: 1px solid black;
+  text-align: center;
+}
+table td,tr,th{
+  border: 1px solid black;
+}
+
+table a{
+  color:red;
+  text-decoration: none;
+}
+
+table input{
+  width:100px;
+}
+
+table input[type="submit"]{
+  background-color: #F0C59C;
+  border-radius: 25px;
+  width:50px;
+}
